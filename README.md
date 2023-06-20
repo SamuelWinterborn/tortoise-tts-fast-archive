@@ -1,4 +1,14 @@
-# this repo is now maintenance only; please develop a fork || use the mrq repo if you have large features to submit
+# This repo is for archive purpose
+## Some instruction for easier setup (so u don't have to go thru the same trouble I did)
+If you have conda just use the environment.yml, `conda env create -n <EnvName> --file <.yml file>`, if not you can follow the install instruction from original repo below (do prepare to deal with some issue tho), python version is `3.8.16`.
+
+There's also a module `voicefixer` that requires downloading models, but it's very slow and also no progress was shown, so for downloading straight from browser:
+
+[vf.ckpt](https://zenodo.org/record/5600188/files/vf.ckpt?download=1) - to be placed in `%USERPROFILE%/.cache/voicefixer/analysis_module/checkpoints/`
+
+[model.ckpt-1490000_trimed](https://zenodo.org/record/5600188/files/model.ckpt-1490000_trimed.pt?download=1) - to be placed in `%USERPROFILE%/.cache/voicefixer/synthesis_module/44100`
+
+---
 
 ### recent updates
 
